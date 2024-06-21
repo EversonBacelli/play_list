@@ -1,0 +1,157 @@
+.container{
+    background-image: url(../img/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 75%;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 98%;
+    border: white solid 1px;
+    position: fixed;
+    margin-left: 13%;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    box-shadow: var(--border-box-neon);
+    margin-left: 300px;
+    margin-left: 20%;
+}
+
+
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    width: 100%;
+}
+
+.head p {
+    width: 300px;
+    padding: 10px ;
+    font-size: 20px;
+    font-family: Dancing Script;
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -o-transition: 1.5s;
+    -ms-transition: 1.5s;
+    transition: 1.5s;
+    text-shadow: 5px 5px black;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    animation: flicker linear infinite 4s;
+}
+
+.head img{
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -o-transition: 1.5s;
+    -ms-transition: 1.5s;
+    transition: 1.5s
+}
+
+.head img:hover{
+    background-color: gold;
+    border-radius: 50%;
+    border: dashed 1px black;
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -o-transition: 1.5s;
+    -ms-transition: 1.5s;
+    transition: 1.5s
+}
+
+.head p:hover{
+        text-shadow: 0 0 10px rgba(255,255,255,1) , 
+        0 0 20px rgba(255,255,255,1) , 
+        0 0 30px rgba(255,255,255,1) , 
+        0 0 40px #00ffff , 
+        0 0 70px #00ffff , 
+        0 0 80px #00ffff , 
+        0 0 100px #00ffff ;
+}
+
+hr{
+    width: 95%;
+}
+
+.info_music{
+    width: 93%;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.musica, .traducao{
+    background-color: black;
+    height: 97%;
+    width: 40%;
+    overflow-y: scroll;
+    padding: 10px;
+    border-radius: 10px;
+    border: dashed yellow 1px;
+    opacity: 0.8;
+    scrollbar-width: thin;
+    scrollbar-color: black transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.musica p{
+    text-align: center;
+}
+
+.musica:hover, .traducao:hover{
+    background-color: #17c47c;
+    font-size: 20px;
+       
+}
+
+@keyframes flicker {
+    75% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    76% {
+      color: #222;
+    }
+    77% {
+      color: inherit;
+      text-shadow: none;
+    }
+    78% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    79% {
+      color: #222;
+      text-shadow: none;
+    }
+    80% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    90% {
+      color: #222;
+      text-shadow: none;
+    }
+    90.5% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+  }
+
+  

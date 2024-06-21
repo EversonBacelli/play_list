@@ -1,0 +1,22 @@
+.video{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0.8;
+    width: 95%;
+    height: 350px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.video img{
+    height: 150px;
+    width: 150px;
+    border-radius: 30px;
+}
+
+video{
+    margin-top: -60px;
+    border-radius: 20px;
+    height: 350px;
+}
