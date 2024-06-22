@@ -30,7 +30,7 @@ nav::before{
     position: absolute;
     width: 100px;
     height: 250%;
-    background: linear-gradient(180deg, black, red);
+    background-color: black;
     animation: animate 3s linear infinite;
     border-radius: 5px;
 

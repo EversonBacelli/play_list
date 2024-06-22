@@ -9,6 +9,13 @@
     inset 0 0 0.4vw  0.2vw #e97272,
     inset 0 0 0.5vw  0.2vw #fff7f7;
     border-radius: 1.5rem;
+    --text-neon: 0 0 10px rgba(255,255,255,1) , 
+    0 0 20px rgba(255,255,255,1) , 
+    0 0 30px rgba(255,255,255,1) , 
+    0 0 40px #00ffff , 
+    0 0 70px #00ffff , 
+    0 0 80px #00ffff , 
+    0 0 100px #00ffff ;
   }
 
 body{

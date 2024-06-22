@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    opacity: 0.8;
+    opacity: 0.9;
     width: 95%;
     height: 350px;
     border-bottom-left-radius: 20px;
@@ -12,11 +12,14 @@
 .video img{
     height: 150px;
     width: 150px;
-    border-radius: 30px;
+    border-radius: 50%;
+    box-shadow:  0 0 1em gold, 0 0 1em red;
+    border: solid white 2px;
 }
 
 video{
     margin-top: -60px;
     border-radius: 20px;
     height: 350px;
+    width: 40%;
 }

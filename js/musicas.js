@@ -1,3 +1,7 @@
+import { someLikeYou } from "./letras/someLikeYou.js"
+import { shapeOfYou } from "./letras/shapeOfYou.js"
+
+
 export const musicas = [
     {
       "id": 1,
@@ -6,18 +10,24 @@ export const musicas = [
       "img1": "http://127.0.0.1:5500/img/someLikeYouImg1.jpeg",
       "img2": "http://127.0.0.1:5500/img/someLikeYouImg2.jpeg",
       "url_musica": "http://127.0.0.1:5500/videos/Adele%20-%20Someone%20Like%20You.mp4",
-      "letra": "I heard that you're settled down...",
-      "traducao": "Ouvi dizer que você se estabeleceu..."
+      "letra": someLikeYou.letra,
+      'tituloTraduzido' : "Alguém como você",
+      "traducao": someLikeYou.traducao,
+      "img_capa": someLikeYou.img_fundo1,
+      "img_capa2" : someLikeYou.img_fundo2
     },
     {
       "id": 2,
-      "nomeArtista": "Ed Sheeran",
-      "musica": "Shape of You",
-      "img1": "https://example.com/ed_sheeran_img1.jpg",
-      "img2": "https://example.com/ed_sheeran_img2.jpg",
-      "url_musica": "https://example.com/shape_of_you.mp3",
-      "letra": "The club isn't the best place to find a lover...",
-      "traducao": "O clube não é o melhor lugar para encontrar um amor..."
+      "nomeArtista": "Ed-Sheeran",
+      "musica": "Shape Of You",
+      "img1": "../img/shape_of_you_img1.jpeg",
+      "img2": "../img/shape_of_you_img2.jpeg",
+      "url_musica": "../videos/Ed Sheeran - Shape Of You [Official Lyric Video].mp4",
+      "letra": shapeOfYou.letra,
+      'tituloTraduzido' : "A Sua Forma",
+      "traducao": shapeOfYou.traducao,
+      "img_capa": shapeOfYou.img_fundo1,
+      "img_capa2" : shapeOfYou.img_fundo2
     },
     {
       "id": 3,
@@ -100,4 +110,8 @@ export const musicas = [
       "traducao": "Alguma vez você já se sentiu como um saco plástico..."
     }
   ]
+  
+
+
+  
   
