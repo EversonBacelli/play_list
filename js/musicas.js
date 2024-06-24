@@ -1,5 +1,7 @@
 import { someLikeYou } from "./letras/someLikeYou.js"
 import { shapeOfYou } from "./letras/shapeOfYou.js"
+import { loveStory } from "./letras/loveStory.js"
+import { justAway } from "./letras/justAwayYouAre.js"
 
 
 export const musicas = [
@@ -33,21 +35,27 @@ export const musicas = [
       "id": 3,
       "nomeArtista": "Taylor Swift",
       "musica": "Love Story",
-      "img1": "https://example.com/taylor_swift_img1.jpg",
-      "img2": "https://example.com/taylor_swift_img2.jpg",
-      "url_musica": "https://example.com/love_story.mp3",
-      "letra": "We were both young when I first saw you...",
-      "traducao": "Nós éramos jovens quando eu te vi pela primeira vez..."
+      "img1": "../img/love_story_img1.jpeg",
+      "img2": "../img/love_story_img2.png",
+      "url_musica": "../videos/Taylor Swift - Love Story.mp4",
+      "letra": loveStory.letra ,
+      "tituloTraduzido": "História de Amor",
+      "traducao": loveStory.traducao,
+      "img_capa": loveStory.img_fundo1,
+      "img_capa2" : loveStory.img_fundo2
     },
     {
       "id": 4,
       "nomeArtista": "Bruno Mars",
       "musica": "Just the Way You Are",
-      "img1": "https://example.com/bruno_mars_img1.jpg",
-      "img2": "https://example.com/bruno_mars_img2.jpg",
+      "img1": "../img/just_away_you_are_img1.jpeg",
+      "img2": "../img/just_away_you_are_img2.jpeg",
       "url_musica": "https://example.com/just_the_way_you_are.mp3",
-      "letra": "Oh, her eyes, her eyes...",
-      "traducao": "Oh, os olhos dela, os olhos dela..."
+      "letra": justAway.letra,
+      "tituloTraduzido": "Exatamente como você é",
+      "traducao": justAway.traducao,
+      "img_capa": justAway.img_fundo1,
+      "img_capa2": justAway.img_fundo2
     },
     {
       "id": 5,
