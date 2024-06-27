@@ -1,6 +1,28 @@
 import { musicas } from "./musicas.js";
 import { tirarEnfase, destacar, editarCabecalho, editarMusica, editarTraducao, editarVideo } from "./manipularTela.js";
-const url = 'http://127.0.0.1:5500/js/musicas.json';
+
+
+const img_menu = document.querySelector('.menu')
+
+img_menu.addEventListener('click', (event) =>{
+    let obj = event.target
+    const divs_nav = document.querySelectorAll('nav div')
+
+
+    divs_nav.forEach(div =>{
+        if(div.style.display == 'flex'){
+            div.style.display = 'none'
+            obj.style.width = "48px"
+            obj.style.height = "48px"
+        } else {
+            div.style.display = 'flex'
+            obj.style.width = "20px"
+            obj.style.height = "20px"
+        }
+    })
+    
+
+})
 
 
 
@@ -9,6 +31,7 @@ const url = 'http://127.0.0.1:5500/js/musicas.json';
         
         let p = document.createElement('p')
         let div = document.createElement('div')
+        div.style.display = 'flex'
         let img = document.createElement("img")
         img.src="https://img.icons8.com/plasticine/20/hand-right.png"
         
