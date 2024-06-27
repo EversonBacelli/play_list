@@ -68,7 +68,7 @@ export const musicas = [
       "musica": "Diamonds",
       "img1": "../img/diamond_img1.jpeg",
       "img2": "../img/diamond_img2.jpeg",
-      "url_musica": "../videos/Rihanna - Diamonds (Lyrics) (360p).mp4",
+      "url_musica": "../videos/Diamonds.mp4",
       "letra": diamonts.letra,
       "tituloTraduzido": "Diamantes",
       "traducao": diamonts.traducao,
